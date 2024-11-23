@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import time
 
 # Pin configuration
-PIN = 26
+PIN = 37
 
 # GPIO setup
 GPIO.setmode(GPIO.BCM)  # Use Broadcom pin numbering
