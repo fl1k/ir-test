@@ -18,7 +18,7 @@ try:
         time.sleep(5)  # Keep it on for 1 second
 
         # Turn off the GPIO pin
-    //    GPIO.output(PIN, GPIO.LOW)
+    #    GPIO.output(PIN, GPIO.LOW)
         print("GPIO 17 OFF")
         time.sleep(20)  # Keep it off for 1 second
 
