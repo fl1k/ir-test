@@ -2,11 +2,11 @@ import RPi.GPIO as GPIO
 import time
 
 # Pin configuration
-PIN = 37
+PIN = 16
 
 # GPIO setup
 GPIO.setmode(GPIO.BCM)  # Use Broadcom pin numbering
-GPIO.setup(PIN, GPIO.OUT)  # Set GPIO 26 as an output
+GPIO.setup(PIN, GPIO.OUT)  # Set GPIO 23 as an output
 
 try:
     while True:
