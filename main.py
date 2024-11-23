@@ -18,7 +18,7 @@ try:
         # Turn off the GPIO pin
         GPIO.output(PIN, GPIO.LOW)
         print("GPIO 17 OFF")
-        time.sleep(1)  # Keep it off for 1 second
+        time.sleep(30)  # Keep it off for 1 second
 
 except KeyboardInterrupt:
     print("Script interrupted by user.")
